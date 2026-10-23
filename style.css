@@ -53,6 +53,10 @@ p {
     color: #513dd7;    
 }
 
+.about-text {
+    text-align: left;
+}
+
 
 img {
     border-radius: 15px;
@@ -72,7 +76,7 @@ img {
     }
 
     h1 {
-        font-size: 28px;
+        font-size: 22px;
     }
     h2 {
     font-size: 22px;
