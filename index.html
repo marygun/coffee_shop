@@ -2,37 +2,59 @@
 <html>
   <head>
     <title>My Coffee Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Welcome to My Coffee Shop</h1>
-    <p>Fresh coffee, happy mornings!</p>
+    <header>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#hours">Opening Hours</a>
+      </nav>
+    </header>
 
-    <h2>About Us</h2>
-    <p>We are a small coffee shop that loves making coffee.</p>
+    <main>
+      <h1 id="home">Welcome to My Coffee Shop</h1>
+      <p>Fresh coffee, happy mornings!</p>
 
-    <h2>Our Menu</h2>
+      <h2 id="about">About</h2>
+      <p>We are a small coffee shop that loves making coffee.</p>
 
-    <h3>Hot Coffee</h3>
-    <ul>
-      <li>Expresso</li>
-      <li>Latte</li>
-      <li>Cappuccino</li>
-    </ul>
-    <!-- Format: CTRL + SHIFT + F -->
-    <h3>Cold Coffee</h3>
-    <ul>
-      <li>Iced Latte</li>
-      <li>Cold Brew</li>
-      <li>Iced Mocha</li>
-    </ul>
+      <h2 id="menu">Our Menu</h2>
 
-    <img src="images/coffee.jpg" alt="A cup of coffee" width="200" />
+      <h3>Hot Coffee</h3>
+      <ul>
+        <li>Espresso - $3.00</li>
+        <li>Latte - $4.50</li>
+        <li>Cappuccino - $4.00</li>
+      </ul>
 
-    <p>Follow us on Instagram!</p>
-    <a href="https://www.instagram.com" > Our Instagram </a>
+      <h3>Cold Coffee</h3>
+      <ul>
+        <li>Iced Latte - $5.00</li>
+        <li>Cold Brew - $4.00</li>
+        <li>Iced Mocha - $5.50</li>
+      </ul>
 
-    <h2>Opening Hours</h2>
-    <p>Monday - Friday: 7 AM - 6 PM</p>
-    <p>Saturday - Sunday: 8 AM - 5 PM</p>
+      <img src="images/coffee.jpg" alt="A cup of coffee" width="200" />
+
+      <div class="social-links">
+        <p>Follow us on Instagram!</p>
+        <a href="https://www.instagram.com" target="_blank">Our Instagram</a>
+
+        <p>Here is our Pinterest:</p>
+        <a href="https://www.pinterest.com" target="_blank">Our Pinterest</a>
+      </div>
+
+      <h2 id="hours">Opening Hours</h2>
+      <p>Monday - Friday: 7 AM - 6 PM</p>
+      <p>Saturday - Sunday: 8 AM - 5 PM</p>
+    </main>
+    <footer>
+      <p>Made with love and coffee.</p>
+      <p>&copy; 2026 My Coffee Shop. All rights reserved.</p>
+    </footer>
   </body>
 </html>
